@@ -17,16 +17,20 @@ In order to determine which algorithms are the best, we also have an automated m
 We must import the necessary libraries first. To grasp the data better, we must outlook it.
 
 
-###Data pre-processing
+### Data pre-processing
 
 We replace missing values at the crucial phase of data pre-processing.
 
 ### Analysis
 
 One of the key components of finding insight is analysis.
+
 Since adults, infants, and children can't all be zero at once, there is some dirtiness in the data.
+
 Using geographical analysis, we were able to determine the origin of the visitors.
+
 The bulk of the visitors, according to our study, come from Portugal and other European countries.
+
 We discovered a correlation between the price per night and how much guests pay for a room each night.
 
 ### Co-relation
