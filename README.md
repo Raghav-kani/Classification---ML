@@ -24,29 +24,31 @@ We replace missing values at the crucial phase of data pre-processing.
 ### Analysis
 
 One of the key components of finding insight is analysis.
-
 Since adults, infants, and children can't all be zero at once, there is some dirtiness in the data.
-
 Using geographical analysis, we were able to determine the origin of the visitors.
-
 The bulk of the visitors, according to our study, come from Portugal and other European countries.
-
 We discovered a correlation between the price per night and how much guests pay for a room each night.
 
 ### Co-relation
+
 Important features using Machine learning
 The quantity of booking modifications, however, is a potential source of leakage when attempting to forecast whether or not a reservation will be cancelled because this data might alter over time.
 
 ### Handle Outliers
+
 Important since they have the potential to alter the outcome of our investigation, which we have also viewed using several plots
 
 ### Feature Importance
+
 We utilize the importance score in the feature Importance (total features, selected features)
 A list of the features we've chosen can be created.
 
 ### Splitting dataset & building model
+
 Here, we employ a variety of algorithms, including Random Forest and Logistic Regression.
 We train, test, and partition the data using machine learning algorithms to determine which model's "Accuracy of the model" is the best.
+
+### Cross-validating & Automated Algorithms
 
 We are now cross-validating the model using train and test data.
 The process is automated, and many algorithms are used to choose the best model and determine the accuracy score.
