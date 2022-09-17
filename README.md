@@ -31,20 +31,23 @@ We discovered a correlation between the price per night and how much guests pay 
 
 ### Co-relation
 
-Important features using Machine learning
+Important features using Machine learning.
 The quantity of booking modifications, however, is a potential source of leakage when attempting to forecast whether or not a reservation will be cancelled because this data might alter over time.
 
 ### Handle Outliers
 
-Important since they have the potential to alter the outcome of our investigation, which we have also viewed using several plots
+Important since they have the potential to alter the outcome of our investigation, which we have also viewed using several plots.
 
 ### Feature Importance
 
-We utilize the importance score in the feature Importance (total features, selected features)
+We utilize the importance score in the feature Importance (total features, selected features).
+
 A list of the features we've chosen can be created.
 
 ### Splitting dataset & building model
+
 Here, we employ a variety of algorithms, including Random Forest and Logistic Regression.
+
 We train, test, and partition the data using machine learning algorithms to determine which model's "Accuracy of the model" is the best.
 
 ### Cross-validating & Automated Algorithms
