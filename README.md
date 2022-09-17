@@ -44,13 +44,13 @@ We utilize the importance score in the feature Importance (total features, selec
 A list of the features we've chosen can be created.
 
 ### Splitting dataset & building model
-
 Here, we employ a variety of algorithms, including Random Forest and Logistic Regression.
 We train, test, and partition the data using machine learning algorithms to determine which model's "Accuracy of the model" is the best.
 
 ### Cross-validating & Automated Algorithms
 
 We are now cross-validating the model using train and test data.
+
 The process is automated, and many algorithms are used to choose the best model and determine the accuracy score.
 
 
