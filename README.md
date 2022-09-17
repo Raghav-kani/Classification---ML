@@ -14,35 +14,38 @@ In order to determine which algorithms are the best, we also have an automated m
 
 ## 1.2 BRIEF DISCUSSION
 
-	We must import the necessary libraries first. To grasp the data better, we must outlook it.
+We must import the necessary libraries first. To grasp the data better, we must outlook it.
 
-	Data pre-processing
-o	We replace missing values at the crucial phase of data pre-processing.
 
-	Analysis
-o	One of the key components of finding insight is analysis.
-o	Since adults, infants, and children can't all be zero at once, there is some dirtiness in the data.
-o	Using geographical analysis, we were able to determine the origin of the visitors.
-o	The bulk of the visitors, according to our study, come from Portugal and other European countries.
-o	We discovered a correlation between the price per night and how much guests pay for a room each night.
+###Data pre-processing
 
-	Co-relation
-o	Important features using Machine learning
-o	The quantity of booking modifications, however, is a potential source of leakage when attempting to forecast whether or not a reservation will be cancelled because this data might alter over time.
+We replace missing values at the crucial phase of data pre-processing.
 
-	Handle Outliers
-o	Important since they have the potential to alter the outcome of our investigation, which we have also viewed using several plots
+### Analysis
 
-	Feature Importance
-o	We utilize the importance score in the feature Importance (total features, selected features)
-o	A list of the features we've chosen can be created.
+One of the key components of finding insight is analysis.
+Since adults, infants, and children can't all be zero at once, there is some dirtiness in the data.
+Using geographical analysis, we were able to determine the origin of the visitors.
+The bulk of the visitors, according to our study, come from Portugal and other European countries.
+We discovered a correlation between the price per night and how much guests pay for a room each night.
 
-	Splitting dataset & building model
-o	Here, we employ a variety of algorithms, including Random Forest and Logistic Regression.
-o	We train, test, and partition the data using machine learning algorithms to determine which model's "Accuracy of the model" is the best.
+### Co-relation
+Important features using Machine learning
+The quantity of booking modifications, however, is a potential source of leakage when attempting to forecast whether or not a reservation will be cancelled because this data might alter over time.
 
-	We are now cross-validating the model using train and test data.
-	The process is automated, and many algorithms are used to choose the best model and determine the accuracy score.
+### Handle Outliers
+Important since they have the potential to alter the outcome of our investigation, which we have also viewed using several plots
+
+### Feature Importance
+We utilize the importance score in the feature Importance (total features, selected features)
+A list of the features we've chosen can be created.
+
+### Splitting dataset & building model
+Here, we employ a variety of algorithms, including Random Forest and Logistic Regression.
+We train, test, and partition the data using machine learning algorithms to determine which model's "Accuracy of the model" is the best.
+
+We are now cross-validating the model using train and test data.
+The process is automated, and many algorithms are used to choose the best model and determine the accuracy score.
 
 
 
